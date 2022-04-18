@@ -1,0 +1,55 @@
+﻿@model MVCProject.Models.IndexViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutRes.cshtml";
+}
+
+<h2>Reservations</h2>
+
+<table class="table">
+<thead>
+    <tr>
+        <th>
+           @* displays heading for column id*@
+            @Html.DisplayNameFor(model=>model.Reservations.Last().Id)
+        </th>
+        <th>
+            @* displays heading for column name*@
+            @Html.DisplayNameFor(model=>model.Reservations.Last().LastName)
+        
+        </th> 
+
+    </tr>
+
+</thead>
+<tbody>
+   
+    @foreach ( var item in Model.Reservations)
+   {
+       <tr>
+           <td>@Html.DisplayFor(modelitem=>item.Id) </td>
+           <td>@Html.DisplayFor(modelitem=>item.LastName) </td>
+           <td> 
+
+               <a asp-action="Details"asp-route-id ="@item.Id">Details</a>
+           </td>
+           <td> 
+
+               <a asp-action="Delete"asp-route-id ="@item.Id">Delete</a>
+           </td>
+           <td> 
+
+               <a asp-action="Update"asp-route-id ="@item.Id">Update</a>
+           </td>
+
+
+       </tr>
+
+       
+   }
+
+</tbody>
+
+</table>
+<a asp-action="Create" >Create Reservation</a>
+

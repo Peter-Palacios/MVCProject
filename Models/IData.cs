@@ -7,7 +7,7 @@ namespace MVCProject.Models
 
         IEnumerable<Reservation> InitializeData();
         Reservation GetReservation(int? id);
-
+        Reservation GetReservationByEmail(string? email);
         void AddReservation(Reservation reservation);
         void UpdateReservation(Reservation reservation);
         void DeleteReservation(int? id);

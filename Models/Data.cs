@@ -85,5 +85,19 @@ namespace MVCProject.Models
                 res.Time = reservation.Time;
             }
         }
+
+        public Reservation GetReservationByEmail(string email)
+        {
+            throw new NotImplementedException();
+
+            //if (email == null)
+            //{
+            //    return null;
+            //}
+            //else
+            //{
+            //    return Reservations.Find(x => x.email == email);
+            //}
+        }
     }
 }

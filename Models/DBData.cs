@@ -31,6 +31,17 @@ namespace MVCProject.Models
         {
             return _reservationContext.Reservations.Find(id);
         }
+        public Reservation GetReservationByEmail(string email)
+        {
+            //return _reservationContext.Reservations.AsQueryable()
+            var reservation = _reservationContext.Reservations.Find(email);
+
+            return reservation;
+            //.Where(m => m.email_address == email)
+            //.SingleOrDefault();
+
+        }
+
 
         public IEnumerable<Reservation> InitializeData()
         {
@@ -53,5 +64,7 @@ namespace MVCProject.Models
                 _reservationContext.SaveChanges();
             }
         }
+
+        
     }
 }

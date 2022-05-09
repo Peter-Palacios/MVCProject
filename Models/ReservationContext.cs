@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System;
 using Microsoft.EntityFrameworkCore;
 namespace MVCProject.Models
 {
@@ -59,4 +60,5 @@ namespace MVCProject.Models
 
 
     }
+    
 }

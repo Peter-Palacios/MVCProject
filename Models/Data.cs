@@ -20,39 +20,39 @@ namespace MVCProject.Models
 
         public Data()
         {
-            Reservations = new List<Reservation>()
-            {
-                new Reservation()
-                {
-                    Id = 11,
-                    FirstName= "John",
-                    LastName= "Bushin",
-                    email="johnbushin@g.com",
-                    persons= 3,
-                    PhoneNumber=2293331234,
-                    Time= new DateTime(2022,7,1,8,00,00)
-                },
-                new Reservation()
-                {
-                    Id = 12,
-                    FirstName= "Susan",
-                    LastName= "Green",
-                    email="sgreen@y.com",
-                    persons= 2,
-                    PhoneNumber=4442282193,
-                    Time= new DateTime(2022,5,15,2,00,00)
-                },
-                new Reservation()
-                {
-                    Id = 11,
-                    FirstName= "James",
-                    LastName= "Jones",
-                    email="JJ@g.com",
-                    persons= 10,
-                    PhoneNumber=7890234586,
-                    Time= new DateTime(2022,7,6,6,00,00)
-                }
-            };
+            //Reservations = new List<Reservation>()
+            //{
+            //    new Reservation()
+            //    {
+            //        Id = 11,
+            //        FirstName= "John",
+            //        LastName= "Bushin",
+            //        email="johnbushin@g.com",
+            //        persons= 3,
+            //        PhoneNumber=2293331234,
+            //        Time= new DateTime(2022,7,1,8,00,00)
+            //    },
+            //    new Reservation()
+            //    {
+            //        Id = 12,
+            //        FirstName= "Susan",
+            //        LastName= "Green",
+            //        email="sgreen@y.com",
+            //        persons= 2,
+            //        PhoneNumber=4442282193,
+            //        Time= new DateTime(2022,5,15,2,00,00)
+            //    },
+            //    new Reservation()
+            //    {
+            //        Id = 12,
+            //        FirstName= "James",
+            //        LastName= "Jones",
+            //        email="JJ@g.com",
+            //        persons= 10,
+            //        PhoneNumber=7890234586,
+            //        Time= new DateTime(2022,7,6,6,00,00)
+            //    }
+            //};
         }
         public Reservation GetReservation(int? id)
         {

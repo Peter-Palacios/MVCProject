@@ -7275,11 +7275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MSSA\\projects\\MVCProject\\MVCProject.csproj",
+      "projectUniqueName": "C:\\MSSA\\projects\\Risotto Reservations\\MVCProject.csproj",
       "projectName": "MVCProject",
-      "projectPath": "C:\\MSSA\\projects\\MVCProject\\MVCProject.csproj",
+      "projectPath": "C:\\MSSA\\projects\\Risotto Reservations\\MVCProject.csproj",
       "packagesPath": "C:\\Users\\pj_pa\\.nuget\\packages\\",
-      "outputPath": "C:\\MSSA\\projects\\MVCProject\\obj\\",
+      "outputPath": "C:\\MSSA\\projects\\Risotto Reservations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

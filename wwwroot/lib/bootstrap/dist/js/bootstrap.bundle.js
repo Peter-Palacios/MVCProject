@@ -5373,7 +5373,9 @@
     HIDDEN: "hidden" + EVENT_KEY$6,
     SHOW: "show" + EVENT_KEY$6,
     SHOWN: "shown" + EVENT_KEY$6,
-    INSERTED: "inserted" + EVENT_KEY$6,
+
+
+      ED: "inserted" + EVENT_KEY$6,
     CLICK: "click" + EVENT_KEY$6,
     FOCUSIN: "focusin" + EVENT_KEY$6,
     FOCUSOUT: "focusout" + EVENT_KEY$6,

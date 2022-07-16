@@ -50,9 +50,10 @@ namespace MVCProject
         {
 
            // reservationContext.Database.EnsureDeleted();
-           reservationContext.Database.EnsureCreated();
+            reservationContext.Database.EnsureCreated();
 
-            userContext.Database.EnsureCreated();
+             userContext.Database.EnsureCreated();
+           // userContext.Database.EnsureDeleted();
 
             if (env.IsDevelopment())
             {
